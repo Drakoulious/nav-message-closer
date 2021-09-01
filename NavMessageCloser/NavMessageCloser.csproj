@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C336A872-8A08-4ED3-95D1-FB339AB145FA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NavTray</RootNamespace>
-    <AssemblyName>NavTray</AssemblyName>
+    <RootNamespace>NavMessageCloser</RootNamespace>
+    <AssemblyName>NavMessageCloser</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -64,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
