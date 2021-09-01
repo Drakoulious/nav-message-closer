@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavTray", "NavTray\NavTray.csproj", "{C336A872-8A08-4ED3-95D1-FB339AB145FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMessageCloser", "NavTray\NavMessageCloser.csproj", "{C336A872-8A08-4ED3-95D1-FB339AB145FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
