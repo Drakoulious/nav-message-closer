@@ -22,5 +22,17 @@ namespace NavMessageCloser.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skipMessageSemicolonSeparated {
+            get {
+                return ((string)(this["skipMessageSemicolonSeparated"]));
+            }
+            set {
+                this["skipMessageSemicolonSeparated"] = value;
+            }
+        }
     }
 }
