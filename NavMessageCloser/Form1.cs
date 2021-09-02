@@ -185,7 +185,7 @@ namespace NavTray
                     MessageRule rule = new MessageRule();
                     rule.message = (string)row.Cells["MessageText"].Value;
                     rule.onConfirm = ((string)row.Cells["OnConfirm"].Value ?? "Yes").Contains("Yes");
-                    rule.closeMessage = (bool)(row.Cells["CloseMessage"].Value ?? true);
+                    rule.closeMessage = (bool)(row.Cells["CloseMessage"].Value ?? false);
                     rule.startProgramm = (string)row.Cells["StartProgramm"].Value ?? "";
                     rules.Add(rule);
                 }                
