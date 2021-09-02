@@ -195,7 +195,8 @@ namespace NavTray
 
         private int GetNavDialog()
         {
-            return (int)FindWindow("#32770", "Microsoft Dynamics NAV Classic");
+            //return (int)FindWindow("#32770", "Microsoft Dynamics NAV Classic");
+            return (int)FindWindow("#32770", "Microsoft Dynamics NAV");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
